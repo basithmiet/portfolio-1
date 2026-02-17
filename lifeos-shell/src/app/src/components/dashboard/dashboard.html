@@ -1,0 +1,11 @@
+ <div class="p-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="bg-gray-800 text-white p-4 rounded-xl">
+        <h2 class="text-xl font-bold">Tasks</h2>
+        <div *ngFor="let task of tasks">
+          {{task.title}} - {{task.isCompleted}}
+        </div>
+      </div>
+
+      <div id="react-habit-root"></div>
+      <div id="vue-finance-root"></div>
+    </div>

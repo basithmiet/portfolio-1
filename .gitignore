@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/LifeOS/.vs
+/LifeOS/LifeOS/bin/Debug/net10.0
+/LifeOS/LifeOS/obj
